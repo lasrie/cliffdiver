@@ -1,0 +1,26 @@
+name: Flutter CI
+
+on:
+  push:
+    branches:
+    - master
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '2.10.0'
+      - run: sh setEnvironment.sh ${{ secrets.FIREBASE_API_KEY }}
+      - run: flutter pub get
+      - run: flutter test
+      - run: flutter build web
+      - uses: actions/upload-artifact@v2
+        with:
+          name: web-build
+          path: build/web/
+      
+      
