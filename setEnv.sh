@@ -1,0 +1,1 @@
+echo "export const secrets={firebaseApiKey:'$1',mapsurl:'$2',firebaseConfig: $3}" > secrets2.js
