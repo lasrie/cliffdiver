@@ -14,7 +14,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           flutter-version: '2.10.0'
-      - run: sh setEnv.sh ${{ secrets.FIREBASEAPIKEY }} ${{ secrets.MAPSURL }} ${{ secrets.FIREBASECONFIG }}
+     # - run: sh setEnv.sh ${{ secrets.FIREBASEAPIKEY }} ${{ secrets.MAPSURL }} ${{ secrets.FIREBASECONFIG }}
       - run: flutter pub get
       - run: flutter test
       - run: flutter build web
