@@ -16,6 +16,8 @@ class SpotDetail extends StatefulWidget {
   }
 }
 
+// this class seems to deep, but its mostly ui stuff(?) so maybe just some cleanup/extract functions here and there
+
 class _SpotDetailState extends State<SpotDetail> {
   var spotData;
   String _spotID;

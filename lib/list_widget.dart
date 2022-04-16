@@ -66,6 +66,8 @@ class _ListState extends State<ListWidget> {
 
   @override
   Widget build(BuildContext context) {
+    // i would say its too deep, but some of the sample apps are also like this. I think the readability suffers, your decision
+
     return new Scaffold(
         appBar: new AppBar(
           title: Padding(

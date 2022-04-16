@@ -47,6 +47,8 @@ class _NewSpotState extends State<NewSpot> {
 
   @override
   Widget build(BuildContext context) {
+    // uff
+    
     FirebaseFirestore firestore = FirebaseFirestore.instance;
     CollectionReference fireSpots = firestore.collection('Spots');
     return Scaffold(

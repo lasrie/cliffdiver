@@ -10,6 +10,9 @@ class EventWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     FirebaseFirestore firestore = FirebaseFirestore.instance;
     CollectionReference fireEvents = firestore.collection('Events');
+
+    // too deep
+
     return new Scaffold(
         appBar: new AppBar(
           title: new Text("Events"),

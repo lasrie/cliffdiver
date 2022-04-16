@@ -26,6 +26,7 @@ class _BottomBarState extends State<BottomBar> {
       ListWidget(firestore),
       EventWidget(Colors.deepOrange),
     ];
+    
     return Scaffold(
       body: _children[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
