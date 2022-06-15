@@ -1,16 +1,22 @@
 # cliffdiver
 
-A new Flutter project.
+The perfect place to find your next cliffdiving spot!
 
-## Getting Started
+Have you ever wondered from which cliff you would like to jump next?
+Look no further! In this app you can find all the cliffs or towers the average diver would like to jump from and even more!
 
-This project is a starting point for a Flutter application.
+If you would like to share a cliff with the community, you can do so.
+Especially like a boulder and would express some love to the community for sharing?
+Simply leave a comment and rate the entry while doing so.
 
-A few resources to get you started if this is your first Flutter project:
+![screen2](https://user-images.githubusercontent.com/7352457/173861605-6ecba42b-4783-4fc7-967d-abff6aaade8f.PNG)
+![screen3](https://user-images.githubusercontent.com/7352457/173861611-56b84158-dad4-4f4e-94b1-6bb3cecf772d.PNG)
+![screen4](https://user-images.githubusercontent.com/7352457/173862456-036dbab8-cd00-49cc-ac02-c29650558b7e.PNG)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Live Demo: https://klippenspringer-576d9.web.app/#/
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+
+App was built using Flutter and intended for the Web. All libraries used should be compatible to mobile, so using it for iOS & Android should be no problem.
+
+Backend & Hosting is done via Google Firebase.
